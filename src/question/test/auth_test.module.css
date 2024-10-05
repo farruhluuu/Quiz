@@ -1,0 +1,179 @@
+.auth {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: gray;
+}
+.header i {
+  margin-right: 30px;
+}
+.header i:hover {
+  color: wheat !important;
+}
+
+.authMenu {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 450px;
+  height: 550px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 0 40px 0 gray;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-direction: column;
+}
+.authMenu input {
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border-color: rgb(0, 128, 255);
+  font-size: 24px;
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+.AuthText {
+  font-size: 34px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.authMenu button {
+  padding: 10px 110px;
+  border-radius: 10px;
+  font-size: 26px;
+  color: white;
+  border: none;
+  box-shadow: 0 7px 3px 0 rgb(0, 153, 153);
+  background-color: aqua;
+  border-color: aquamarine;
+}
+.authMenu button:active {
+  box-shadow: none;
+  margin-top: 7px;
+}
+
+.TestPage {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  box-shadow: 0 0 50px 10px gray;
+  background-color: white;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0 0 0;
+  justify-content: space-between;
+}
+.TestQuestion {
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  gap: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.TestBox div input {
+  width: 30px;
+  height: 30px;
+}
+.TestBox {
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  border: 3px solid gray;
+  padding-bottom: 40px;
+}
+.TestBox div {
+  width: 90%;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border: 3px solid gray;
+}
+
+
+.TestBox div p {
+  width: 90%;
+  font-size: 20px;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  height: 88%;
+  scroll-behavior: smooth;
+  margin-left: 20px;
+}
+
+.TestBox div p::-webkit-scrollbar {
+  display: none;
+}
+.H1 {
+  margin-left: -540px;
+}
+
+.Send {
+  font-size: 24px;
+  color: white;
+  border: none;
+  background-color: rgb(255, 127, 127);
+  padding: 20px 200px;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  box-shadow: 0 10px 5px 0 rgb(176, 92, 92);
+}
+.Send:active {
+  background-color: rgb(215, 112, 112);
+  margin-top: 10px;
+  box-shadow: none;
+  margin-bottom: 30px;
+}
+
+.ResultTest {
+  width: 40%;
+  margin: 0 auto;
+  border: 3px solid gray;
+  padding: 20px;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 10px;
+  margin-top: 100px;
+  gap: 30px;
+}
+.ResultTest button {
+  margin-top: 20px;
+  padding: 10px 60px;
+  font-size: 24px;
+  background-color: rgb(0, 255, 0);
+  color: white;
+  border-color: green;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 2px 0 green;
+}
+.ResultTest button:active {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: none;
+}
+
